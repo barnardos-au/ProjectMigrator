@@ -8,10 +8,10 @@ namespace ProjectMigrator
         public void Migrate(Job job)
         {
             var lister = new SourceFilesLister();
-            var sourceFiles = lister.GetSourceFiles(job.Criteria);
+            var sourceFiles = lister.GetSourceFiles(job.Source.Criteria);
 
             var fileCopier = new FileCopier();
-            var targetFiles = fileCopier.CopyFiles(sourceFiles, job.SourceProjectFolder, job.TargetProjectFolder);
+            var targetFiles = fileCopier.CopyFiles(sourceFiles, job.Source.ProjectFolder, job.Target.ProjectFolder);
 
         }
     }

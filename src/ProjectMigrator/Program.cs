@@ -1,6 +1,6 @@
 ﻿using System.IO;
 using Mono.Options;
-using ServiceStack;
+using Newtonsoft.Json;
 
 namespace ProjectMigrator
 {
@@ -15,7 +15,8 @@ namespace ProjectMigrator
                 {"j|job=", "the path to to job file", o => jobFile = o}
             }.Parse(args);
 
-            var job = File.ReadAllText(jobFile).FromJson<Job>();
+            var text = File.ReadAllText(jobFile);
+            var job = JsonConvert.DeserializeObject<Job>(text);
 
             new ProjectMigrator().Migrate(job);
         }
