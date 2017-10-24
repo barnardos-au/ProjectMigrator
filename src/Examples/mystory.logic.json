@@ -29,6 +29,7 @@
 		"Extensions\\DateTimeExtensions",
 		"Extensions\\DateTimeOffsetExtensions",
 		"Extensions\\EnumExtensions",
+		"Extensions\\StringExtensions",
 		"Extensions\\TimeZoneInfoExtensions",
         "FileNoteSlice\\Model",
         "LibrarySlice\\Models",
@@ -54,7 +55,9 @@
         "Common\\Models\\ReferralOtherService",
         "Common\\Models\\RelationshipComposition",
 		"Common\\DataAnnotations\\CscNotLegacyAttribute",
-		"Common\\DataAnnotations\\NotAFutureDateAttribute"
+		"Common\\DataAnnotations\\NotAFutureDateAttribute",
+		"Common\\ReferenceData\\LegalOohcStatusReferenceDataProvider",
+		"Common\\ReferenceData\\ILegalOohcStatusReferenceDataProvider",
 	  ]
     },
     "Namespace": "MyStory.Logic"
