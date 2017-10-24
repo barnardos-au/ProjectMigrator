@@ -1,0 +1,34 @@
+{
+  "Name": "MyStory.Models",
+  "Source": {
+    "ProjectFolder": "C:\\code\\mystory\\MyStory\\MyStory.Domain.Models",
+    "Criteria": {
+      "Path": "C:\\code\\mystory\\MyStory\\MyStory.Domain.Models",
+      "SearchPattern": "*.cs",
+      "IncludePaths": [
+        "CarerApplicationSlice\\",
+        "CarerManagementSlice\\",
+        "ClientSlice\\",
+        "DataAnnotations\\",
+        "FileNoteSlice\\",
+        "LibrarySlice\\",
+        "PlacementSlice\\",
+        "ProgramSlice\\",
+        "ReferenceData\\",
+        "ReferralSlice\\",
+        "RegistrationSlice\\",
+        "ReportsChildrenByCharacteristicSlice\\",
+        "ReportsOOHCSlice\\",
+        "ReportsReferralRegistrationSlice\\",
+        "ReportsSlice\\",
+        "Workflows\\"
+      ],
+	  "ExcludePaths": []
+    },
+    "Namespace": "MyStory.Logic"
+  },
+  "Target": {
+    "ProjectFolder": "C:\\code\\mystory\\MyStory\\MyStory.Core",
+    "Namespace": "MyStory.Logic"
+  }
+}

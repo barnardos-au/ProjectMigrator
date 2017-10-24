@@ -1,0 +1,66 @@
+{
+  "Name": "MyStory.Models",
+  "Source": {
+    "ProjectFolder": "C:\\code\\mystory\\MyStory\\Logic",
+    "Criteria": {
+      "Path": "C:\\code\\mystory\\MyStory\\Logic",
+      "SearchPattern": "*.cs",
+      "IncludePaths": [
+        "AdministrationSlice\\Models",
+        "CarePlanSlice\\Models",
+        "CarerManagementSlice\\Models",
+        "CentreSlice\\Models",
+        "ClientReviewSlice\\Models",
+        "ClientSlice\\Models",
+        "ClientSlice\\Services\\ClientReferenceData.cs",
+        "Common\\Models",
+		"Common\\DataAnnotations",
+		"Common\\Persistence\\IDbAgencyLabelGenerator",
+		"Common\\Persistence\\Models",
+		"Common\\Persistence\\Relationships\\Rel.",
+		"Common\\Persistence\\Utils",
+		"Common\\ReferenceData",
+		"Common\\Services\\IAgencyProvider",
+		"Common\\Services\\ITitledPerson",
+		"Common\\Utils\\ConfigConstants",
+		"Common\\ViewModels",
+        "ContactSlice\\Models",
+        "DbUpdateSlice\\Model",
+		"Extensions\\DateTimeExtensions",
+		"Extensions\\DateTimeOffsetExtensions",
+		"Extensions\\EnumExtensions",
+		"Extensions\\TimeZoneInfoExtensions",
+        "FileNoteSlice\\Model",
+        "LibrarySlice\\Models",
+        "OGM\\Attributes",
+        "OGM\\Interfaces",
+        "OGM\\Direction",
+        "PersonSlice\\Models",
+        "PlacementEntryPlanSlice\\Models",
+        "PlacementEntryPlanSlice\\Services\\PlacementEntryPlanReferenceData.cs",
+        "ReferralSlice\\Models",
+        "RegistrationSlice\\Models",
+        "ReportsOOHCSlice\\Models",
+		"ReportsChildrenByCharacteristicSlice\\Models",
+		"ReportsReferralRegistrationSlice\\Models",
+        "Security\\Models",
+        "UserGroupSlice\\Models",
+        "UserSlice\\Models"
+      ],
+	  "ExcludePaths": [
+        "Common\\Models\\ChildrenResult",
+        "Common\\Models\\DeleteReferral",
+		"Common\\Models\\MultiPass",
+        "Common\\Models\\ReferralOtherService",
+        "Common\\Models\\RelationshipComposition",
+		"Common\\DataAnnotations\\CscNotLegacyAttribute",
+		"Common\\DataAnnotations\\NotAFutureDateAttribute"
+	  ]
+    },
+    "Namespace": "MyStory.Logic"
+  },
+  "Target": {
+    "ProjectFolder": "C:\\code\\mystory\\MyStory\\MyStory.Core",
+    "Namespace": "MyStory.Logic"
+  }
+}
